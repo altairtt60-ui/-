@@ -3,6 +3,7 @@ import {readFile} from 'node:fs/promises';
 import {withSite,launch} from './helpers.mjs';
 const routes=['/','/services','/portfolio','/about','/contact','/faq'];
 const origin='https://altweb-factory.vercel.app';
+const config=JSON.parse(await readFile('vercel.json','utf8'));assert.equal(config.redirects[0].source,'/:path*');assert.equal(config.redirects[0].destination,origin+'/:path*');
 await withSite(async base=>{
  const titles=new Set(),descriptions=new Set();
  const browser=await launch();const page=await browser.newPage({javaScriptEnabled:false,viewport:{width:390,height:844}});

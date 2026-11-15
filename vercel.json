@@ -34,14 +34,14 @@
   "trailingSlash": false,
   "redirects": [
     {
-      "source": "/(.*)",
+      "source": "/:path*",
       "has": [
         {
           "type": "host",
           "value": "altweb-factory-altairtt60-4558.vercel.app"
         }
       ],
-      "destination": "https://altweb-factory.vercel.app/$1",
+      "destination": "https://altweb-factory.vercel.app/:path*",
       "permanent": true
     }
   ]
