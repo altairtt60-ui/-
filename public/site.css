@@ -68,7 +68,7 @@ body { background: var(--ink); color: var(--cream); font-family: var(--font-body
 .site-footer { border-top: 1px solid var(--line); padding-block: 32px 48px; color: var(--secondary); }
 .site-footer p { font-size: 15px; }
 .site-sr-only { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
-.home-page #app { position: relative; height: 100svh; min-height: 420px; overflow: clip; line-height: normal; }
+.home-page #app { position: relative; height: 100svh; min-height: 320px; overflow: clip; line-height: normal; }
 .home-page .factory-ui { position: absolute; }
 .home-page .keyboard-guide a { color: var(--link); }
 .home-page .factory-nav a { display: inline-flex; align-items: center; text-decoration: none; color: inherit; }

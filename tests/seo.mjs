@@ -19,7 +19,7 @@ await withSite(async base=>{
   if(path==='/services')assert.equal(graph.filter(n=>n['@type']==='Service').length,6);
   if(path==='/faq')assert.equal(graph.find(n=>n['@type']==='FAQPage').mainEntity.length,10);
   await page.goto(base+path);assert.ok(await page.locator('main').innerText());assert.ok(await page.locator('h1').isVisible());
-  assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,path+' mobile overflow');
+  for(const width of [320,390,768,1920]){await page.setViewportSize({width,height:844});assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,path+' overflow '+width);}await page.setViewportSize({width:390,height:844});
   if(path==='/')assert.equal(await page.locator('#app').isVisible(),false,'No empty game viewport without JS');
   const hrefs=await page.locator('a[href^="/"]').evaluateAll(a=>a.map(e=>e.getAttribute('href')));
   for(const href of new Set(hrefs))assert.equal((await fetch(base+href)).status,200,path+' internal '+href);

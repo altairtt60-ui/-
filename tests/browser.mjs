@@ -51,5 +51,6 @@ await withSite(async base=>{
   await page.evaluate(()=>window.scrollTo({top:0,behavior:'instant'}));await page.waitForFunction(()=>!window.__ALTWEB__.getState().paused);
   assert.equal(await page.locator('.portfolio-link').getAttribute('href'),'/portfolio');assert.equal(errors.length,0,errors.join('\n'));await context.close();console.log(`PASS factory ${mobile?'mobile':'desktop'}: six rooms, design configurator, all three games, keyboard puzzle, reset, persistence, order draft, movement, reading pause`);
  }
+ const landscape=await browser.newPage({viewport:{width:844,height:390}});await landscape.goto(base+'/?room=entry');await landscape.waitForFunction(()=>window.__ALTWEB__?.getState()?.ready);assert.ok(await landscape.locator('#app').evaluate(e=>e.clientHeight<=innerHeight),'Landscape factory fits viewport');await landscape.close();console.log('PASS landscape 844x390');
  }finally{await browser.close();}
 });
