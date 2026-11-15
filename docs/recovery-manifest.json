@@ -1,0 +1,486 @@
+[
+  {
+    "path": "index.html",
+    "sha1": "75c54f8706b58837755d1f6529777be861efa2a6"
+  },
+  {
+    "path": "package-lock.json",
+    "sha1": "1f381070fa4d3eb72964f1a1d0d18c347c15f563"
+  },
+  {
+    "path": "package.json",
+    "sha1": "44d3dd59b296639fb30f3c6a147f64770e18bbd4"
+  },
+  {
+    "path": "public/assets/atelier-shell.svg",
+    "sha1": "971d72eb643504f3c914167ebbc0e6e967cf38bb"
+  },
+  {
+    "path": "public/assets/backend-hall.svg",
+    "sha1": "502316523ba6166e01d9ff84fa5ee050612b8327"
+  },
+  {
+    "path": "public/assets/capsule.svg",
+    "sha1": "8422cbd111633aae84095b6c8a6cf4b5f125eb8e"
+  },
+  {
+    "path": "public/assets/compiler-core.svg",
+    "sha1": "2e205a18616c8579f38a96101134c59488ac07be"
+  },
+  {
+    "path": "public/assets/conveyor.svg",
+    "sha1": "c64e02e9c4488d53e97a05ab43cff3abc5c7fb96"
+  },
+  {
+    "path": "public/assets/design-hall.svg",
+    "sha1": "4dd972a7b95880c17168bddcd1d35d5a9ee89665"
+  },
+  {
+    "path": "public/assets/design-station.svg",
+    "sha1": "1d4d4d955311fa409f0fd5307550cd7feb58902e"
+  },
+  {
+    "path": "public/assets/designer-beret.svg",
+    "sha1": "736712a7cf59c9ad4ed737b801f16aaff7a70b77"
+  },
+  {
+    "path": "public/assets/diagnostic-chamber.svg",
+    "sha1": "62b29720476e813a6fc05fdfec34f5c81cc70ab2"
+  },
+  {
+    "path": "public/assets/dispatch-hall.svg",
+    "sha1": "99f2153257af458c504c5e9b7c392ed312b2d954"
+  },
+  {
+    "path": "public/assets/entry-shell.svg",
+    "sha1": "de2265db43f4616a3e4f28dfaf6194c0a3cd912d"
+  },
+  {
+    "path": "public/assets/factory-depth.svg",
+    "sha1": "560c9ee1feff6456d611fb4b8d234a9351bc279d"
+  },
+  {
+    "path": "public/assets/factory-sign.svg",
+    "sha1": "af8812e5e926a62cf346c59e0fae475a72ecb490"
+  },
+  {
+    "path": "public/assets/fan.svg",
+    "sha1": "1a8ecaae41c223ad79fb03f7a334979c46eae4df"
+  },
+  {
+    "path": "public/assets/far-architecture.svg",
+    "sha1": "8d54c168f3987ff653dcb572257fe812f1f0ca22"
+  },
+  {
+    "path": "public/assets/foreground-pipes.svg",
+    "sha1": "7736b568980ac4980af8a87b05347a580c4c571e"
+  },
+  {
+    "path": "public/assets/foundation.svg",
+    "sha1": "99ee39751733d22abc6125513cc20fb9e1225590"
+  },
+  {
+    "path": "public/assets/industrial-edge.svg",
+    "sha1": "49395f766f217f5fa26614ce77d445faa73ec14b"
+  },
+  {
+    "path": "public/assets/lamp.svg",
+    "sha1": "9f95726e5b5f70dcd7b5f3df66beb5c11fafbbef"
+  },
+  {
+    "path": "public/assets/library-arches.svg",
+    "sha1": "d6f7884d181515a1c70dc4fca78fe00abec3fe21"
+  },
+  {
+    "path": "public/assets/library-cart.svg",
+    "sha1": "da2cd4b5919f7af65ed7ad776dd84015cc243eb2"
+  },
+  {
+    "path": "public/assets/library-conveyor.svg",
+    "sha1": "d9a549cc414b53af7479d3d8562a529ea53f64b7"
+  },
+  {
+    "path": "public/assets/library-frame.svg",
+    "sha1": "06198067968f5707cbd80f0520816d6f995f926f"
+  },
+  {
+    "path": "public/assets/library-lift.svg",
+    "sha1": "d4a785d1d93ecea9f7abc78cf0186304ae162309"
+  },
+  {
+    "path": "public/assets/library-shelf.svg",
+    "sha1": "401153b00b81bed1a0329e9e709b7530fd7bb209"
+  },
+  {
+    "path": "public/assets/library-sign.svg",
+    "sha1": "57c5e6c305e21e323fd0ca184c51cdd79124fa5b"
+  },
+  {
+    "path": "public/assets/plant.svg",
+    "sha1": "7365905dbf9313f43a06a6be442b1116277e6364"
+  },
+  {
+    "path": "public/assets/platform.svg",
+    "sha1": "65c4939fa02f214958990d8c9a0605a82d2705b3"
+  },
+  {
+    "path": "public/assets/qa-hall.svg",
+    "sha1": "be1526a6ae38dbf9f2ea7455351c3434e7b188cd"
+  },
+  {
+    "path": "public/assets/robot-arm.svg",
+    "sha1": "f929226d499a7ffc5b2efabf04006f63cb25c505"
+  },
+  {
+    "path": "public/assets/robot-body.svg",
+    "sha1": "994116dcdac62b1e2695433b928de314b9242b3c"
+  },
+  {
+    "path": "public/assets/robot-head.svg",
+    "sha1": "4ea10ec7ef7317b599c60091375ddf5e5755be56"
+  },
+  {
+    "path": "public/assets/robot-leg.svg",
+    "sha1": "7dcb4565ab1127082c086d4ddfea3491a6e2d65e"
+  },
+  {
+    "path": "public/assets/server-cabinet.svg",
+    "sha1": "5950ab45025d8c8b9891fc419307e36db9d6df61"
+  },
+  {
+    "path": "public/assets/tool-bench.svg",
+    "sha1": "677c7f39f1aabd6d8ca2080108468d1a0e23f08f"
+  },
+  {
+    "path": "public/assets/work-console.svg",
+    "sha1": "c295f5d6b326665af4db002fb30f6864030bd745"
+  },
+  {
+    "path": "public/favicon.svg",
+    "sha1": "eef5977b9811df72563591bd68c6665fd57e4a29"
+  },
+  {
+    "path": "public/og-factory.jpg",
+    "sha1": "58333d1ce29f81f99cde8897b17fc54d99f551c7"
+  },
+  {
+    "path": "public/projects/altweb-atelier-preview.webp",
+    "sha1": "02d3b3e6fffeef63cf98eb3f9022282f45bd7f4f"
+  },
+  {
+    "path": "public/projects/altweb-atelier-thumb.webp",
+    "sha1": "561be286fa83ddb489cbdaadea487d774d5c7fed"
+  },
+  {
+    "path": "public/projects/altweb-design-preview.webp",
+    "sha1": "236245f915bcacb7f3f56a1d7e4283bf9f145d06"
+  },
+  {
+    "path": "public/projects/altweb-design-thumb.webp",
+    "sha1": "956fb6f917ab431f30b4c324cee207160d74a7ca"
+  },
+  {
+    "path": "public/projects/altweb-playground-preview.webp",
+    "sha1": "96f4da3cee149a064e4c92e82467680fc08477fe"
+  },
+  {
+    "path": "public/projects/altweb-playground-thumb.webp",
+    "sha1": "efc8ab292f0c7943b3abbfa636bc8586f9203c7c"
+  },
+  {
+    "path": "public/projects/altweb-portfolio-preview.webp",
+    "sha1": "7f235c4cbb6f8ae6b4c3a06792e54141841c8971"
+  },
+  {
+    "path": "public/projects/altweb-portfolio-thumb.webp",
+    "sha1": "d79f48785da7bc165a6ca417c58aebad843077b6"
+  },
+  {
+    "path": "public/projects/avtozabota-detailing-preview.webp",
+    "sha1": "e2d769a1bddd39ebe31c9510bab357cec6879b98"
+  },
+  {
+    "path": "public/projects/avtozabota-detailing-thumb.webp",
+    "sha1": "fecab82937ec41456ecb0df871097b31454acc40"
+  },
+  {
+    "path": "public/projects/capture-manifest.json",
+    "sha1": "626236ef32917ebd1cbde28b7795e09c4317d36d"
+  },
+  {
+    "path": "public/projects/chb-barbershop-preview.webp",
+    "sha1": "8979a2347070e767dc374eaa449a0373c379f8d2"
+  },
+  {
+    "path": "public/projects/chb-barbershop-thumb.webp",
+    "sha1": "2c76c5e4c15e45ab971f64ced749184d89058835"
+  },
+  {
+    "path": "public/projects/classlab-preview.webp",
+    "sha1": "d992809e347b87655ae36ebb28e0159ad969aee5"
+  },
+  {
+    "path": "public/projects/classlab-thumb.webp",
+    "sha1": "10587dd3b25cadfb1e850096da7bd8558f902b32"
+  },
+  {
+    "path": "public/projects/clinic-demo-preview.webp",
+    "sha1": "d245f7db2c9351614908b0845e796b6031797d38"
+  },
+  {
+    "path": "public/projects/clinic-demo-thumb.webp",
+    "sha1": "ff005e655e89ae1db886f4ac143b60361d7c7188"
+  },
+  {
+    "path": "public/projects/dans-le-garage-preview.webp",
+    "sha1": "ad71bb75d158c3787d023c14a3f23a55e2d5d33b"
+  },
+  {
+    "path": "public/projects/dans-le-garage-thumb.webp",
+    "sha1": "5ec6da4d49c89dee0f27e2fdf1c6608d01fcbb35"
+  },
+  {
+    "path": "public/projects/fresh-cleaning-preview.webp",
+    "sha1": "578329a2634396178f19602fe8095e0bf525fcab"
+  },
+  {
+    "path": "public/projects/fresh-cleaning-thumb.webp",
+    "sha1": "0ca838a33aa01995814e439bdffa9ba8a0c58cf8"
+  },
+  {
+    "path": "public/projects/gaziza-preview.webp",
+    "sha1": "821a1bd899fd4480128fd87da5392b826e647001"
+  },
+  {
+    "path": "public/projects/gaziza-thumb.webp",
+    "sha1": "f104491f83ac9b5e85f477c67996a328e0ae4851"
+  },
+  {
+    "path": "public/projects/ielts-embassy-preview.webp",
+    "sha1": "1428fee8ef32bf26646002aeef70b3114f4d3923"
+  },
+  {
+    "path": "public/projects/ielts-embassy-thumb.webp",
+    "sha1": "b7804da6ffed006ecf57223da8756306d4893e52"
+  },
+  {
+    "path": "public/projects/kn-detailing-preview.webp",
+    "sha1": "eb73e2ab6dfc990962fd32dd84afb7dc1692e49b"
+  },
+  {
+    "path": "public/projects/kn-detailing-thumb.webp",
+    "sha1": "df75fec36a6b171bc52cde32aa3f08eb8d805018"
+  },
+  {
+    "path": "public/projects/kroshka-preview.webp",
+    "sha1": "db9d1e91f2ed462056778f13cc126f9bf4877839"
+  },
+  {
+    "path": "public/projects/kroshka-thumb.webp",
+    "sha1": "ab46eb8bdc7f9843606c7be48053ecbc96c3637f"
+  },
+  {
+    "path": "public/projects/nogti-mania-preview.webp",
+    "sha1": "600f35e02abf1f2ed7afe75df99b42b2029676d4"
+  },
+  {
+    "path": "public/projects/nogti-mania-thumb.webp",
+    "sha1": "579e2eed3dab86fc92ce9952812fb46857f2eba4"
+  },
+  {
+    "path": "public/projects/pitlane-auto-preview.webp",
+    "sha1": "4ffc20ad114db5a4717e5e84d2e410e6376db4c5"
+  },
+  {
+    "path": "public/projects/pitlane-auto-thumb.webp",
+    "sha1": "e2ba4b3e4684323b35e56262d06b9bc4393952b4"
+  },
+  {
+    "path": "public/robots.txt",
+    "sha1": "65990256b6ebe0149d8edfcae37274b6af3e42ae"
+  },
+  {
+    "path": "src/content/assetUrl.ts",
+    "sha1": "777eb39cc4c55eb766a2f8307b1e8c2614d712b8"
+  },
+  {
+    "path": "src/content/brand.ts",
+    "sha1": "6f77c6aa4a66278c26afd0af8d2fbefd5da5d0ac"
+  },
+  {
+    "path": "src/content/commerce.ts",
+    "sha1": "8755f3b2d027ae3dd3b24ff369fb3c1000c8a0a8"
+  },
+  {
+    "path": "src/content/commerceTypes.ts",
+    "sha1": "ba2df2853790ea18a2e9ac692f29bcf3cb59dfb2"
+  },
+  {
+    "path": "src/content/designOptions.ts",
+    "sha1": "e68e6562cf6d8449f4e6e5ab5e089e95055cd584"
+  },
+  {
+    "path": "src/content/libraryLayout.ts",
+    "sha1": "088f9afc746a8fcbdb83c143c1e0809019bac7e5"
+  },
+  {
+    "path": "src/content/projectTypes.ts",
+    "sha1": "01a61fcd59d53ca5dfb03bc254573be48dc458b9"
+  },
+  {
+    "path": "src/content/projects.ts",
+    "sha1": "d3a31d23cd67f1ec2e4129fde7fc78f747d8a674"
+  },
+  {
+    "path": "src/content/robotDialogues.ts",
+    "sha1": "5f8496a37ca92a4f401ba81e0fb054d0042f45f6"
+  },
+  {
+    "path": "src/content/studio.ts",
+    "sha1": "7babc9f231c823a76a6b6f5e49a0a0dfbf38d26a"
+  },
+  {
+    "path": "src/content/taskProgress.ts",
+    "sha1": "4679e3fd01af84f1c0d4b3f12d498a70924456d5"
+  },
+  {
+    "path": "src/content/world.ts",
+    "sha1": "8b4640309e2528d726ae79c0815577e1a68cfbce"
+  },
+  {
+    "path": "src/contracts.ts",
+    "sha1": "c9f70996d7171677a5ac7d2cebd5fa5848aa3da6"
+  },
+  {
+    "path": "src/features/backendGame.css",
+    "sha1": "c2e4515edc0aebff0ceee7a13ec8390afe057517"
+  },
+  {
+    "path": "src/features/backendGame.ts",
+    "sha1": "a7458de55bdc52bf4dc4c0d81ddc7dd671ca5e2e"
+  },
+  {
+    "path": "src/features/designGame.css",
+    "sha1": "4a585507028417c23c9a3835c17ed78484ebb6b7"
+  },
+  {
+    "path": "src/features/designGame.ts",
+    "sha1": "4a856d2bb6dcbebc7274c744e233b0e5610bac33"
+  },
+  {
+    "path": "src/features/designWorkshop.css",
+    "sha1": "4262a0e2a3a12e84b6a51bf4ea739d912b17f32f"
+  },
+  {
+    "path": "src/features/designWorkshop.ts",
+    "sha1": "60bc13e570fec79d967ab4bdfde8938607178883"
+  },
+  {
+    "path": "src/features/orderForm.css",
+    "sha1": "93716a8ced52786c2e7fb64f40ab9164d803db5a"
+  },
+  {
+    "path": "src/features/orderForm.ts",
+    "sha1": "e64731a797fd78653c4f78647e628610647464c3"
+  },
+  {
+    "path": "src/features/portfolio.css",
+    "sha1": "9b7bace3c44a44ad5bee948f9895497ef804a284"
+  },
+  {
+    "path": "src/features/portfolio.ts",
+    "sha1": "da9e1d01bcb1cc77c581880c191f1003d907393c"
+  },
+  {
+    "path": "src/features/qaGame.css",
+    "sha1": "8c7f15dec1293e02e097e9b783bd054569b70e84"
+  },
+  {
+    "path": "src/features/qaGame.ts",
+    "sha1": "f7d45c5d21b32f39ef25ae39921b612ad65d60af"
+  },
+  {
+    "path": "src/features/servicesView.css",
+    "sha1": "56ee41967b127ab2729f945140c5ae15c87de79d"
+  },
+  {
+    "path": "src/features/servicesView.ts",
+    "sha1": "f72a7433732b3d949110b96932f4136c22cc0df2"
+  },
+  {
+    "path": "src/game/FactoryScene.ts",
+    "sha1": "3759b94d21b503d7e4f69e712510f0bd4b1398ca"
+  },
+  {
+    "path": "src/game/art.ts",
+    "sha1": "1921c95b3fb3582d8e3ba05d0320099e8a2d942e"
+  },
+  {
+    "path": "src/game/createGame.ts",
+    "sha1": "e12d27286067c1d9bcffb7e71b29dbb08d3c0073"
+  },
+  {
+    "path": "src/game/infrastructure.ts",
+    "sha1": "c84855b03cdb3859d1c1a2fa57c2dd06dbde630e"
+  },
+  {
+    "path": "src/game/libraryArt.ts",
+    "sha1": "3dc84631033e07e542d8ba8d7a317f64009636d9"
+  },
+  {
+    "path": "src/game/libraryWork.ts",
+    "sha1": "81e4f3a70479e8bac844d9b499d791a49bc85d53"
+  },
+  {
+    "path": "src/game/lights.ts",
+    "sha1": "698cb7afbad3c4fd6b4ccb3c5ad4dc23ea96b545"
+  },
+  {
+    "path": "src/game/npcSystem.ts",
+    "sha1": "473806ba34506338c4a3ebfd001879876f472cbb"
+  },
+  {
+    "path": "src/game/robots.ts",
+    "sha1": "03e9f2025b064405a68dbea60d0b581e8a83f644"
+  },
+  {
+    "path": "src/game/workCycle.ts",
+    "sha1": "cb36f0bddef2a2d90813a48158968f52db35b575"
+  },
+  {
+    "path": "src/game/workshopArt.ts",
+    "sha1": "f789946a22632fb4de65281944a3915827c46619"
+  },
+  {
+    "path": "src/main.ts",
+    "sha1": "4d493d06a23d1b92ebaa308f8bbeccb88d6a9050"
+  },
+  {
+    "path": "src/style.css",
+    "sha1": "19a85ff34978b0c5d46fac387125308fa6d0b7c3"
+  },
+  {
+    "path": "src/ui/intro.css",
+    "sha1": "2d8f76c9036f2ddffdd411d58a36c5c5ae77eb47"
+  },
+  {
+    "path": "src/ui/intro.ts",
+    "sha1": "c8bb163e0267db193c9f20fb70a94884d002ffb9"
+  },
+  {
+    "path": "src/ui/panels.ts",
+    "sha1": "69c390570198b7d10ba62218a4dc1f5b69f3ea9b"
+  },
+  {
+    "path": "src/ui/shell.ts",
+    "sha1": "4c16cdb5b4202e49a4d0124df70537bed9bc337b"
+  },
+  {
+    "path": "tsconfig.json",
+    "sha1": "229a27c2333b0102a463debc62946cb0845e2186"
+  },
+  {
+    "path": "vercel.json",
+    "sha1": "f58e3ae73e7232d5bad0a2b8543a15064570e896"
+  }
+]

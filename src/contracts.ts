@@ -1,0 +1,7 @@
+import type { ZoneId, TaskKind } from './content/world';
+export type InputAction = 'left' | 'right' | 'jump';
+export interface GameState { ready:boolean; player:{x:number;y:number;vx:number;vy:number;grounded:boolean}; camera:{x:number;y:number;zoom:number}; nearStation:boolean; nearProjectId:string|null; nearNpcId?:string|null; activeInteractionId?:string|null; canInteract:boolean; interactionLabel:string; worldWidth:number; paused:boolean; zone:string; fps:number; npcState:string; npcCount:number; stationId:string|null; completedTasks:TaskKind[]; simTime?:number; npcDetails?:{id:string;role:string;task:string;stage:string;progress:number;x?:number;y?:number}[]; lifts?:{id:string;x:number;y:number;width:number;top:number;bottom:number}[]; }
+export interface GameBridge { onInteract(id:string):void; onState(state:GameState):void; }
+export interface GameAPI { destroy():void; setInput(action:InputAction,pressed:boolean):void; setPaused(paused:boolean):void; focusStation(active:boolean):void; focusInteraction(id:string|null):void; goToZone(id:ZoneId):void; completeTask(kind:TaskKind):void; focusProject(id:string|null):void; goToLibrary():void; interact():void; resetPlayer():void; getState():GameState; }
+export interface UIHandlers { navigate(panel:'projects'|'services'|'contact'|'portfolio'):void; goToZone(id:ZoneId):void; sound():boolean; input(action:InputAction,pressed:boolean):void; interact():void; restart():void; }
+export interface UIHandle { setStatus(state:GameState):void; setSound(on:boolean):void; }

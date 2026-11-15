@@ -1,0 +1,28 @@
+/* Hallmark · component: local order workbench · project palette preserved. */
+.order-workbench { color: var(--cream); }
+.order-form { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 28px; align-items: start; }
+.order-form__fields, .order-form__preview { min-width: 0; }
+.order-form__field { display: grid; gap: 8px; margin-bottom: 18px; }
+.order-form__field > label, .order-form__features legend { color: var(--cream); font-size: 14px; font-weight: 700; }
+.order-form input[type="text"], .order-form select, .order-form textarea { width: 100%; min-width: 0; border: 1px solid var(--line-bright); border-radius: 5px; padding: 11px 12px; background: var(--surface-inset); color: var(--cream); font: inherit; line-height: 1.5; }
+.order-form select, .order-form input[type="text"] { min-height: 46px; }
+.order-form textarea { resize: vertical; }
+.order-form input::placeholder, .order-form textarea::placeholder { color: var(--muted); opacity: 1; }
+.order-form__features { padding: 0; margin: 22px 0; border: 0; min-width: 0; }
+.order-form__features legend { margin-bottom: 10px; }
+.order-form__check { display: flex; align-items: center; gap: 11px; min-height: 44px; font-size: 14px; line-height: 1.4; cursor: pointer; }
+.order-form__check input { flex: 0 0 19px; width: 19px; height: 19px; accent-color: var(--cyan); }
+.order-form__note, .order-form__design { color: var(--secondary); font-size: 13px; line-height: 1.6; margin: 12px 0 18px; }
+.order-form__design { border-left: 2px solid var(--pink); padding-left: 12px; }
+.order-form__preview { position: sticky; top: 12px; }
+.order-form__preview h3 { margin: 0 0 12px; font-size: 20px; overflow-wrap: break-word; min-width: 0; }
+.order-form__message { min-height: 280px; font-size: 14px !important; }
+.order-form__actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; }
+.order-form__actions .console-button { display: inline-flex; align-items: center; justify-content: center; text-decoration: none; min-height: 44px; white-space: nowrap; }
+.order-form__status { min-height: 3.2em; margin: 12px 0 0; color: var(--link); font-size: 13px; line-height: 1.6; }
+.order-form__prepare { min-height: 46px; }
+.order-form :is(input, select, textarea, button, a):focus-visible { outline: 3px solid var(--amber); outline-offset: 3px; }
+.order-form button:active, .order-form a:active { background: var(--surface-held); }
+@media(max-width:760px) { .order-form { grid-template-columns: minmax(0, 1fr); gap: 24px; } .order-form__preview { position: static; } .order-form__message { min-height: 230px; } }
+@media(max-width:420px) { .order-form__actions { flex-direction: column; align-items: stretch; } .order-form__actions .console-button, .order-form__prepare { width: 100%; } }
+@media(prefers-reduced-motion:reduce) { .order-form *, .order-form *::before, .order-form *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; } }

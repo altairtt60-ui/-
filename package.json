@@ -1,0 +1,26 @@
+{
+  "name": "altweb-factory",
+  "private": true,
+  "version": "2.0.0-rc.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test:browser": "node tests/browser.mjs",
+    "test:portfolio": "node tests/portfolio.mjs",
+    "build:offline": "node scripts/build-offline.mjs",
+    "test:offline": "node tests/offline.mjs",
+    "test:rebuild": "node tests/rebuild.mjs"
+  },
+  "dependencies": {
+    "phaser": "3.90.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.58.2",
+    "typescript": "5.9.3",
+    "vite": "7.3.7",
+    "esbuild": "0.28.2"
+  }
+}

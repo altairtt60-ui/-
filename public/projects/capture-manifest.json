@@ -1,0 +1,258 @@
+[
+  {
+    "projectId": "altweb-portfolio",
+    "file": "altweb-portfolio-thumb.webp",
+    "bytes": 6856,
+    "sha256": "0fef2a3c2fe6e71c99bae6daebca2f93f14a8ab9078d0a6b107a4364f2abed26",
+    "sourceUrl": "https://altweb-portfolio.vercel.app/",
+    "checkedAt": "2026-11-07T07:10:10.151Z"
+  },
+  {
+    "projectId": "altweb-portfolio",
+    "file": "altweb-portfolio-preview.webp",
+    "bytes": 34198,
+    "sha256": "4634bbae406282a1ceab14c2a16a3ea5c44632cac763ebd24344067c538a2676",
+    "sourceUrl": "https://altweb-portfolio.vercel.app/",
+    "checkedAt": "2026-11-07T07:10:10.151Z"
+  },
+  {
+    "projectId": "altweb-atelier",
+    "file": "altweb-atelier-thumb.webp",
+    "bytes": 14504,
+    "sha256": "63769fe2c024a84862df5bf8de9251afe8bf40f80ea2835aacc480352633a24a",
+    "sourceUrl": "https://altweb-atelier.vercel.app/bakery/",
+    "checkedAt": "2026-11-07T07:10:12.939Z"
+  },
+  {
+    "projectId": "altweb-atelier",
+    "file": "altweb-atelier-preview.webp",
+    "bytes": 85674,
+    "sha256": "6fec8896fcb9b0969a16b135bdb791c9b04d27dcfbdf7e867febfaa8b08d8408",
+    "sourceUrl": "https://altweb-atelier.vercel.app/bakery/",
+    "checkedAt": "2026-11-07T07:10:12.939Z"
+  },
+  {
+    "projectId": "altweb-design",
+    "file": "altweb-design-thumb.webp",
+    "bytes": 13942,
+    "sha256": "532f37ab067527d7adaa449d2020320fc117bd35b379feba197c3e8887478b06",
+    "sourceUrl": "https://altweb-design.altairtt60.chatgpt.site/",
+    "checkedAt": "2026-11-07T07:10:16.900Z"
+  },
+  {
+    "projectId": "altweb-design",
+    "file": "altweb-design-preview.webp",
+    "bytes": 67640,
+    "sha256": "2aa28be232a5f12db2e63db3fefbe276ef65e583c6ab13b1e3cd4c6f51815c0f",
+    "sourceUrl": "https://altweb-design.altairtt60.chatgpt.site/",
+    "checkedAt": "2026-11-07T07:10:16.900Z"
+  },
+  {
+    "projectId": "altweb-playground",
+    "file": "altweb-playground-thumb.webp",
+    "bytes": 9432,
+    "sha256": "ea2d6162b189db7b953ab4880741cbbbe2df9e595ffa4f3ec873524c222081c6",
+    "sourceUrl": "https://altweb-playground-2026.altairtt60.chatgpt.site/",
+    "checkedAt": "2026-11-07T07:10:20.370Z"
+  },
+  {
+    "projectId": "altweb-playground",
+    "file": "altweb-playground-preview.webp",
+    "bytes": 45266,
+    "sha256": "f45fb95c323de9a7bcb63a5d956585726071b1e6538c7925f68bfde58e54739b",
+    "sourceUrl": "https://altweb-playground-2026.altairtt60.chatgpt.site/",
+    "checkedAt": "2026-11-07T07:10:20.370Z"
+  },
+  {
+    "projectId": "pitlane-auto",
+    "file": "pitlane-auto-thumb.webp",
+    "bytes": 12628,
+    "sha256": "c1ad72b150faa39ed1bed56c8ad4ced4061dc96a84a16e4b75541d8be564295c",
+    "sourceUrl": "https://pitlane-auto.vercel.app/",
+    "checkedAt": "2026-11-07T07:10:23.074Z"
+  },
+  {
+    "projectId": "pitlane-auto",
+    "file": "pitlane-auto-preview.webp",
+    "bytes": 63758,
+    "sha256": "e4b1c9897ad86f9c7aa182ab95808cf6cd4c3bf2388d8a54e75b5828853d4d73",
+    "sourceUrl": "https://pitlane-auto.vercel.app/",
+    "checkedAt": "2026-11-07T07:10:23.074Z"
+  },
+  {
+    "projectId": "kn-detailing",
+    "file": "kn-detailing-thumb.webp",
+    "bytes": 16872,
+    "sha256": "ceef06c925f95c99df4ff07cec20a07b37e66ee40f1d9ac8e1f793f4d54bc918",
+    "sourceUrl": "https://kn-detailing-studio.vercel.app/",
+    "checkedAt": "2026-11-07T07:10:26.511Z"
+  },
+  {
+    "projectId": "kn-detailing",
+    "file": "kn-detailing-preview.webp",
+    "bytes": 82740,
+    "sha256": "f5897c3173133c6a4f1faff1e121f0fc633c1a82fd29d6c4984651735c182b71",
+    "sourceUrl": "https://kn-detailing-studio.vercel.app/",
+    "checkedAt": "2026-11-07T07:10:26.511Z"
+  },
+  {
+    "projectId": "avtozabota-detailing",
+    "file": "avtozabota-detailing-thumb.webp",
+    "bytes": 11558,
+    "sha256": "ad177205e20ba01d13ccea6368af2f874445452f96bf0d1cc1dd3ec25513c0b1",
+    "sourceUrl": "https://avtozabota-detailing-demo.vercel.app/",
+    "checkedAt": "2026-11-07T07:10:29.239Z"
+  },
+  {
+    "projectId": "avtozabota-detailing",
+    "file": "avtozabota-detailing-preview.webp",
+    "bytes": 65860,
+    "sha256": "962e62ddfdc3f963996c7fd90e2f0faa2642eed78237eaff4cc1d917cecf6d6c",
+    "sourceUrl": "https://avtozabota-detailing-demo.vercel.app/",
+    "checkedAt": "2026-11-07T07:10:29.239Z"
+  },
+  {
+    "projectId": "gaziza",
+    "file": "gaziza-thumb.webp",
+    "bytes": 12498,
+    "sha256": "b2b1595567345d0563f5c2106b860a0ba9a2cf2b728f71aff897ac71cdd218e8",
+    "sourceUrl": "https://gaziza-almaty.vercel.app/",
+    "checkedAt": "2026-11-07T07:10:32.661Z"
+  },
+  {
+    "projectId": "gaziza",
+    "file": "gaziza-preview.webp",
+    "bytes": 87440,
+    "sha256": "5e93f06fd5ffca591028570adef20211de1994b91c2ef555b0944932dfbb7369",
+    "sourceUrl": "https://gaziza-almaty.vercel.app/",
+    "checkedAt": "2026-11-07T07:10:32.661Z"
+  },
+  {
+    "projectId": "nogti-mania",
+    "file": "nogti-mania-thumb.webp",
+    "bytes": 8846,
+    "sha256": "e01099400dfe82dff278eb15e33de62f6199bb73cecc7e2668044ad11a117a96",
+    "sourceUrl": "https://nogti-mania-almaty.vercel.app/",
+    "checkedAt": "2026-11-07T07:10:35.905Z"
+  },
+  {
+    "projectId": "nogti-mania",
+    "file": "nogti-mania-preview.webp",
+    "bytes": 41952,
+    "sha256": "83e1aa9492b3248e983573976bf806c0e50e8baa49b573a948b65d6294951425",
+    "sourceUrl": "https://nogti-mania-almaty.vercel.app/",
+    "checkedAt": "2026-11-07T07:10:35.905Z"
+  },
+  {
+    "projectId": "dans-le-garage",
+    "file": "dans-le-garage-thumb.webp",
+    "bytes": 12584,
+    "sha256": "e517917c520fab8e323dd9e66d9aa7abff8ec4a0b626558d41b56a810f24bc5f",
+    "sourceUrl": "https://dans-le-garage-club.vercel.app/",
+    "checkedAt": "2026-11-07T07:10:41.290Z"
+  },
+  {
+    "projectId": "dans-le-garage",
+    "file": "dans-le-garage-preview.webp",
+    "bytes": 67048,
+    "sha256": "c5a140c943c4dd1f4a34bd5a2451d12d50c8987c101f225aa62e26c1a5ad5585",
+    "sourceUrl": "https://dans-le-garage-club.vercel.app/",
+    "checkedAt": "2026-11-07T07:10:41.290Z"
+  },
+  {
+    "projectId": "chb-barbershop",
+    "file": "chb-barbershop-thumb.webp",
+    "bytes": 8242,
+    "sha256": "d3433e2125441f643777a9a3a6a1fb51a99da6f15f613363744193de79edbf5c",
+    "sourceUrl": "https://chb-almaty-preview.vercel.app/",
+    "checkedAt": "2026-11-07T07:10:44.478Z"
+  },
+  {
+    "projectId": "chb-barbershop",
+    "file": "chb-barbershop-preview.webp",
+    "bytes": 33684,
+    "sha256": "4a2348e110f62388bef926ad96e650a77f5c52097ced3a3944cefbb436600e67",
+    "sourceUrl": "https://chb-almaty-preview.vercel.app/",
+    "checkedAt": "2026-11-07T07:10:44.478Z"
+  },
+  {
+    "projectId": "kroshka",
+    "file": "kroshka-thumb.webp",
+    "bytes": 12780,
+    "sha256": "4a8163b58df7abbca80706ac3ef6bd58e8c66500559914e8b3fdb80a19b7663c",
+    "sourceUrl": "https://kroshka-demo.vercel.app/",
+    "checkedAt": "2026-11-07T07:10:47.354Z"
+  },
+  {
+    "projectId": "kroshka",
+    "file": "kroshka-preview.webp",
+    "bytes": 79230,
+    "sha256": "9ee1b1853c1ef282b4770826d2fd960ab4d047d34819104cdaaca366a2dd7fc6",
+    "sourceUrl": "https://kroshka-demo.vercel.app/",
+    "checkedAt": "2026-11-07T07:10:47.354Z"
+  },
+  {
+    "projectId": "fresh-cleaning",
+    "file": "fresh-cleaning-thumb.webp",
+    "bytes": 7990,
+    "sha256": "07e4716b73f90fd45d4cbbc41ff6e4974a53e2ebd63c10d36fd94a0f6408461a",
+    "sourceUrl": "https://fresh-cleaning-demo.vercel.app/",
+    "checkedAt": "2026-11-07T07:10:49.999Z"
+  },
+  {
+    "projectId": "fresh-cleaning",
+    "file": "fresh-cleaning-preview.webp",
+    "bytes": 36914,
+    "sha256": "a494da3dfa1dff2d9ea096179e59c93a5618527e1d55082f513e41074047ab9d",
+    "sourceUrl": "https://fresh-cleaning-demo.vercel.app/",
+    "checkedAt": "2026-11-07T07:10:49.999Z"
+  },
+  {
+    "projectId": "clinic-demo",
+    "file": "clinic-demo-thumb.webp",
+    "bytes": 8156,
+    "sha256": "e4b3bcf1345d57c1463b4a0edd6330d7a48af116ae6f58bf1f139ef45b5c32c1",
+    "sourceUrl": "https://clinic-demo-kz.vercel.app/",
+    "checkedAt": "2026-11-07T07:10:52.572Z"
+  },
+  {
+    "projectId": "clinic-demo",
+    "file": "clinic-demo-preview.webp",
+    "bytes": 42134,
+    "sha256": "e4e2aec8e96f8d9667fd857ff4dd9fb777962117216f40d1c0e14a6dccc39830",
+    "sourceUrl": "https://clinic-demo-kz.vercel.app/",
+    "checkedAt": "2026-11-07T07:10:52.572Z"
+  },
+  {
+    "projectId": "ielts-embassy",
+    "file": "ielts-embassy-thumb.webp",
+    "bytes": 15110,
+    "sha256": "ab1d56651e7ba5a387fe3fd38c4cd74eff584592ad4bf015e12e40422347987f",
+    "sourceUrl": "https://ielts-embassy.vercel.app/",
+    "checkedAt": "2026-11-07T07:10:55.741Z"
+  },
+  {
+    "projectId": "ielts-embassy",
+    "file": "ielts-embassy-preview.webp",
+    "bytes": 86374,
+    "sha256": "314b8b90d33be655a6891a06d2dce885eecceb23a998cfff3dbd2aa768ed0832",
+    "sourceUrl": "https://ielts-embassy.vercel.app/",
+    "checkedAt": "2026-11-07T07:10:55.741Z"
+  },
+  {
+    "projectId": "classlab",
+    "file": "classlab-thumb.webp",
+    "bytes": 8112,
+    "sha256": "13f0730d3237d6f2698b5f99f14321bbcd9a0baff74d67e1ccc3000369f6f4ff",
+    "sourceUrl": "https://classlab-alt.vercel.app/",
+    "checkedAt": "2026-11-07T07:10:58.988Z"
+  },
+  {
+    "projectId": "classlab",
+    "file": "classlab-preview.webp",
+    "bytes": 43594,
+    "sha256": "d7b61205e41ce16e1813e7e996bb874ef37c36eb5ab6a7fc43b95ebd3d6a363f",
+    "sourceUrl": "https://classlab-alt.vercel.app/",
+    "checkedAt": "2026-11-07T07:10:58.988Z"
+  }
+]

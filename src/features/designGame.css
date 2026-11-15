@@ -1,0 +1,88 @@
+/* Hallmark · custom Altweb Factory workbench · original game design preserved. */
+/* Critique: shuffled loose pieces carry the task; the completed layout stays aligned. */
+.design-game { --dg-ink: #09242c; --dg-metal: #173b42; --dg-cyan: #7de0d6; --dg-pink: #eda3d8; --dg-paper: #dce9db; color: var(--dg-paper); font-family: inherit; }
+.design-game *, .design-game *::before, .design-game *::after { box-sizing: border-box; }
+.design-game__intro h3 { margin: 0 0 8px; font-size: clamp(21px, 3vw, 29px); font-weight: 650; letter-spacing: -.035em; }
+.design-game__intro p { max-width: 46ch; margin: 0 0 22px; color: #b2c5be; line-height: 1.55; font-size: 14px; }
+.design-game__bench { display: grid; grid-template-columns: minmax(140px, .85fr) minmax(220px, 1.3fr); gap: 24px; align-items: center; }
+.design-game__tray { padding: 15px 13px 14px; border: 1px solid #57726b; border-radius: 5px 5px 18px 5px; background: linear-gradient(125deg, #35544f 0%, #173a3e 55%, #112d35 100%); box-shadow: inset 0 1px 0 #7b918044, 6px 8px 0 #051b21aa; }
+.design-game__tray-label { margin: 0 0 12px; font-size: 12px; color: #e3c997; }
+.design-game__pieces { display: grid; gap: 12px; }
+.design-game button { font: inherit; -webkit-tap-highlight-color: transparent; }
+.design-game button:focus-visible { outline: 3px solid #fff1c5; outline-offset: 4px; }
+.design-game__piece { position: relative; display: flex; flex-direction: column; align-items: stretch; gap: 8px; width: 100%; padding: 10px; border: 1px solid #6d8e84; border-radius: 8px 8px 8px 2px; background: #0b2832; color: #dce9db; box-shadow: 0 3px 0 #041a20; text-align: left; cursor: grab; touch-action: none; user-select: none; }
+.design-game__piece[aria-pressed="true"] { border-color: var(--dg-pink); box-shadow: 0 0 0 2px #eda3d83a, 0 3px 0 #041a20; }
+.design-game__piece.is-placed { opacity: .43; cursor: default; }
+.design-game__piece.is-placed::after { content: '✓'; position: absolute; right: 9px; bottom: 9px; color: var(--dg-cyan); }
+.design-game__piece-label { font-size: 12px; line-height: 1.3; }
+.design-game__art { position: relative; display: flex; overflow: hidden; width: 100%; min-height: 38px; border-radius: 3px; box-sizing: border-box; }
+.design-game__art--header { align-items: center; gap: 5%; padding: 10px 12px; background: #e0e8da; }
+.design-game__art--header b { width: 19px; height: 19px; margin-right: auto; border-radius: 50% 50% 2px 50%; background: #a44080; transform: rotate(-14deg); }
+.design-game__art--header span { width: 13%; height: 3px; border-radius: 4px; background: #78938d; }
+.design-game__art--hero { min-height: 63px; background: #c8b6d6; }
+.design-game__sun { position: absolute; width: 21px; height: 21px; right: 24%; top: 10px; border-radius: 50%; background: #f4d497; }
+.design-game__hill { position: absolute; width: 80%; height: 115%; left: -20%; top: 45%; border-radius: 46%; transform: rotate(20deg); background: #3f8f89; z-index: 1; }
+.design-game__hill--far { left: auto; right: -28%; top: 54%; background: #7276a9; transform: rotate(-30deg); z-index: 0; }
+.design-game__art--hero b { position: absolute; left: 12px; top: 15px; height: 5px; width: 40%; border-radius: 5px; background: #fff3d4; box-shadow: 0 10px 0 -1px #fff3d4ba; z-index: 2; }
+.design-game__art--cta { min-height: 36px; align-items: center; justify-content: space-between; gap: 6px; padding: 8px 12px; background: #944777; color: #fff1e1; font-size: 11px; }
+.design-game__art--cta b { position: relative; display: block; width: 12px; height: 12px; flex-shrink: 0; }
+.design-game__art--cta b::before { content: ''; position: absolute; right: 0; top: 0; width: 9px; height: 9px; border-top: 1px solid currentColor; border-right: 1px solid currentColor; }
+.design-game__art--cta b::after { content: ''; position: absolute; left: -1px; top: 5px; width: 15px; height: 1px; background: currentColor; transform: rotate(-45deg); }
+.design-game__drawing { position: relative; display: flex; align-items: center; flex-direction: column; padding: 14px 10px 6px; }
+.design-game__ruler { position: absolute; top: 0; left: 0; width: 100%; height: 12px; opacity: .35; background: repeating-linear-gradient(90deg, #abc5b8 0 1px, transparent 1px 9px); border-top: 1px solid #abc5b8; }
+.design-game__device { position: relative; width: min(100%, 236px); padding: 27px 12px 26px; border: 2px solid #8ba69b; border-radius: 26px; background: linear-gradient(115deg, #354d50, #162d37 75%); box-shadow: inset 0 0 0 5px #071c28, 9px 10px 0 #041b2380; transition: border-color .2s ease; }
+.design-game__speaker { position: absolute; left: 39%; top: 12px; width: 22%; height: 4px; border-radius: 8px; background: #081b24; box-shadow: 0 1px #6a7d78; }
+.design-game__device-dot { position: absolute; left: calc(50% - 3px); bottom: 10px; width: 6px; height: 6px; border: 1px solid #789185; border-radius: 50%; }
+.design-game__screen { display: grid; grid-template-columns: 1fr; gap: 9px; padding: 10px; background: #08232b; border: 1px solid #44685e; border-radius: 6px; }
+.design-game__slot { display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 5px; min-width: 0; min-height: 68px; padding: 8px 5px; border: 1px dashed #5f857a; border-radius: 3px; color: #c1d4c8; background: #173a3c88; cursor: pointer; transition: background .2s ease, border-color .2s ease; }
+.design-game__slot--hero { min-height: 120px; }
+.design-game__slot-name { font-size: 13px; }
+.design-game__slot-hint { font-size: 10px; color: #9bb9ab; }
+.design-game__slot.is-target { border-color: var(--dg-pink); background: #80456738; }
+.design-game__slot.is-hovered { border-style: solid; box-shadow: inset 0 0 0 2px #eda3d8; }
+.design-game__slot.is-placed { border: 0; padding: 0; background: transparent; cursor: default; }
+.design-game__slot.is-placed .design-game__art { height: 100%; min-height: inherit; }
+.design-game__slot--hero .design-game__art--hero { min-height: 120px; }
+.design-game__drawing-note { margin: 16px 0 0; color: #9fb6ab; font-size: 11px; }
+.design-game__footer { display: grid; grid-template-columns: 1fr auto; gap: 10px 16px; align-items: center; margin-top: 22px; }
+.design-game__feedback { min-height: 2.8em; max-width: 45ch; margin: 0; font-size: 13px; line-height: 1.5; color: #e1d4b3; }
+.design-game__progress { display: flex; gap: 6px; }
+.design-game__progress i { width: 7px; height: 7px; border-radius: 50%; background: #3f5754; box-shadow: inset 0 1px 2px #041d23; }
+.design-game__progress i.is-lit { background: #8be3c5; box-shadow: 0 0 9px #8be3c54f; }
+.design-game__reset { justify-self: start; padding: 8px 0; min-height: 44px; border: none; border-bottom: 1px solid #6d9386; background: transparent; color: #c0d7c9; cursor: pointer; }
+.design-game.is-complete .design-game__device { width: min(100%, 300px); border-radius: 14px; border-color: #b9ddac; }
+.design-game.is-complete .design-game__screen { grid-template-columns: 1fr 1fr; background: #dbe5d4; }
+.design-game.is-complete .design-game__slot--header { grid-column: 1 / -1; min-height: 48px; }
+.design-game.is-complete .design-game__slot--hero { grid-column: 1 / -1; min-height: 130px; }
+.design-game.is-complete .design-game__slot--cta { grid-column: 1 / -1; min-height: 48px; }
+.design-game.is-complete .design-game__feedback { color: #b6e5bc; }
+.design-game__ghost { position: fixed; z-index: 2147483647; width: 150px; pointer-events: none; opacity: .92; transform: translate(-50%, -50%) rotate(-3deg); box-shadow: 0 10px 25px #00101799; }
+.design-game.is-dragging .design-game__piece { cursor: grabbing; }
+@media (max-width: 520px) {
+  .design-game__intro p { margin-bottom: 16px; font-size: 13px; }
+  .design-game__bench { grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr); gap: 12px; }
+  .design-game__tray { padding: 10px 8px; }
+  .design-game__piece { padding: 7px; gap: 6px; }
+  .design-game__piece-label { font-size: 11px; }
+  .design-game__tray-label { font-size: 11px; }
+  .design-game__drawing { padding: 13px 0 5px; }
+  .design-game__device { padding: 24px 7px 21px; border-radius: 21px; }
+  .design-game__screen { padding: 6px; gap: 6px; }
+  .design-game__slot { min-height: 64px; }
+  .design-game__slot--hero { min-height: 105px; }
+  .design-game__slot-hint { display: none; }
+  .design-game__slot-name { font-size: 11px; }
+  .design-game__drawing-note { text-align: center; font-size: 10px; line-height: 1.4; }
+  .design-game__art--cta { font-size: 9px; padding: 8px; }
+  .design-game__footer { gap: 6px 10px; margin-top: 16px; }
+}
+@media (prefers-reduced-motion: reduce) { .design-game *, .design-game *::before, .design-game *::after { transition: none !important; animation: none !important; } }
+
+/* A working table has loose pieces; their targets stay aligned and predictable. */
+.design-game__piece { transform: translateX(var(--piece-offset, 0px)) rotate(var(--piece-tilt, 0deg)); }
+.design-game__piece[aria-pressed="true"] { transform: translateX(0) rotate(0); }
+.design-game__piece.is-placed { transform: none; }
+.design-game__done { justify-self: end; min-width: 112px; min-height: 44px; padding: 10px 22px; border: 1px solid var(--dg-cyan); border-radius: 7px; background: var(--dg-cyan); color: var(--dg-ink); font-weight: 700 !important; cursor: pointer; }
+.design-game__done:hover:not(:disabled) { filter: brightness(1.1); }
+.design-game__done:active:not(:disabled) { transform: translateY(1px); }
+.design-game__done:disabled { cursor: default; opacity: .4; }
