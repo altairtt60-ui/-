@@ -281,7 +281,7 @@ export class FactoryScene extends Phaser.Scene {
     if(!this.ready||this.galleryAssetsRequested)return;
     this.galleryAssetsRequested=true;let queued=false;
     for(const project of projects){
-      if(!project.verified||!project.thumbnail)continue;
+      if(!project.thumbnail)continue;
       const key=`project-thumb-${project.id}`;this.thumbProjects.set(key,project.id);
       if(this.textures.exists(key))this.library?.setProjectTexture(project.id,key);
       else{this.load.image(key,assetUrl(project.thumbnail));queued=true;}

@@ -17,7 +17,7 @@ export const projects:PortfolioProject[] = [
     "verification": {
       "state": "ok",
       "httpStatus": 200,
-      "checkedAt": "2026-11-07T07:10:10.151Z",
+      "checkedAt": "2026-11-15T18:35:28.110422+00:00",
       "finalUrl": "https://altweb-portfolio.vercel.app/"
     },
     "thumbnail": "/projects/altweb-portfolio-thumb.webp",
@@ -37,9 +37,8 @@ export const projects:PortfolioProject[] = [
     "verification": {
       "state": "ok",
       "httpStatus": 200,
-      "checkedAt": "2026-11-07T07:10:12.939Z",
-      "finalUrl": "https://altweb-atelier.vercel.app/bakery/",
-      "note": "Главный адрес перенаправляет на /bakery/; превью снято с фактически открывшейся страницы."
+      "checkedAt": "2026-11-15T18:35:28.110422+00:00",
+      "finalUrl": "https://altweb-atelier.vercel.app/bakery/"
     },
     "thumbnail": "/projects/altweb-atelier-thumb.webp",
     "previewImage": "/projects/altweb-atelier-preview.webp"
@@ -52,11 +51,11 @@ export const projects:PortfolioProject[] = [
     "summary": "Сайт Altweb Design с описанием услуг.",
     "url": "https://altweb-design.altairtt60.chatgpt.site/",
     "alternateUrls": [],
-    "verified": true,
+    "verified": false,
     "verification": {
-      "state": "ok",
-      "httpStatus": 200,
-      "checkedAt": "2026-11-07T07:10:16.900Z",
+      "state": "restricted",
+      "httpStatus": 403,
+      "checkedAt": "2026-11-15T18:35:28.110422+00:00",
       "finalUrl": "https://altweb-design.altairtt60.chatgpt.site/"
     },
     "thumbnail": "/projects/altweb-design-thumb.webp",
@@ -70,11 +69,11 @@ export const projects:PortfolioProject[] = [
     "summary": "Ранний эксперимент с интерактивным портфолио; не финальная Altweb Factory.",
     "url": "https://altweb-playground-2026.altairtt60.chatgpt.site/",
     "alternateUrls": [],
-    "verified": true,
+    "verified": false,
     "verification": {
-      "state": "ok",
-      "httpStatus": 200,
-      "checkedAt": "2026-11-07T07:10:20.370Z",
+      "state": "restricted",
+      "httpStatus": 403,
+      "checkedAt": "2026-11-15T18:35:28.110422+00:00",
       "finalUrl": "https://altweb-playground-2026.altairtt60.chatgpt.site/"
     },
     "thumbnail": "/projects/altweb-playground-thumb.webp",
@@ -94,7 +93,7 @@ export const projects:PortfolioProject[] = [
     "verification": {
       "state": "ok",
       "httpStatus": 200,
-      "checkedAt": "2026-11-07T07:10:23.074Z",
+      "checkedAt": "2026-11-15T18:35:28.110422+00:00",
       "finalUrl": "https://pitlane-auto.vercel.app/"
     },
     "thumbnail": "/projects/pitlane-auto-thumb.webp",
@@ -112,7 +111,7 @@ export const projects:PortfolioProject[] = [
     "verification": {
       "state": "ok",
       "httpStatus": 200,
-      "checkedAt": "2026-11-07T07:10:26.511Z",
+      "checkedAt": "2026-11-15T18:35:28.110422+00:00",
       "finalUrl": "https://kn-detailing-studio.vercel.app/"
     },
     "thumbnail": "/projects/kn-detailing-thumb.webp",
@@ -130,7 +129,7 @@ export const projects:PortfolioProject[] = [
     "verification": {
       "state": "ok",
       "httpStatus": 200,
-      "checkedAt": "2026-11-07T07:10:29.239Z",
+      "checkedAt": "2026-11-15T18:35:28.110422+00:00",
       "finalUrl": "https://avtozabota-detailing-demo.vercel.app/"
     },
     "thumbnail": "/projects/avtozabota-detailing-thumb.webp",
@@ -150,7 +149,7 @@ export const projects:PortfolioProject[] = [
     "verification": {
       "state": "ok",
       "httpStatus": 200,
-      "checkedAt": "2026-11-07T07:10:32.661Z",
+      "checkedAt": "2026-11-15T18:35:28.110422+00:00",
       "finalUrl": "https://gaziza-almaty.vercel.app/"
     },
     "thumbnail": "/projects/gaziza-thumb.webp",
@@ -170,7 +169,7 @@ export const projects:PortfolioProject[] = [
     "verification": {
       "state": "ok",
       "httpStatus": 200,
-      "checkedAt": "2026-11-07T07:10:35.905Z",
+      "checkedAt": "2026-11-15T18:35:28.110422+00:00",
       "finalUrl": "https://nogti-mania-almaty.vercel.app/"
     },
     "thumbnail": "/projects/nogti-mania-thumb.webp",
@@ -182,18 +181,16 @@ export const projects:PortfolioProject[] = [
     "category": "beauty",
     "status": "concept",
     "summary": "Концепт сайта клуба красоты.",
-    "url": "https://www.danslegarage.com/",
+    "url": "https://dans-le-garage-club.vercel.app/",
     "alternateUrls": [
-      "https://dans-le-garage-club.vercel.app/",
       "https://dans-le-garage-club.altairtt60.chatgpt.site/"
     ],
     "verified": true,
     "verification": {
       "state": "ok",
       "httpStatus": 200,
-      "checkedAt": "2026-11-07T07:10:41.290Z",
-      "finalUrl": "https://dans-le-garage-club.vercel.app/",
-      "note": "Канонический адрес не открылся в этой среде; проверен предоставленный альтернативный адрес."
+      "checkedAt": "2026-11-15T18:35:28.110422+00:00",
+      "finalUrl": "https://dans-le-garage-club.vercel.app/"
     },
     "thumbnail": "/projects/dans-le-garage-thumb.webp",
     "previewImage": "/projects/dans-le-garage-preview.webp"
@@ -212,7 +209,7 @@ export const projects:PortfolioProject[] = [
     "verification": {
       "state": "ok",
       "httpStatus": 200,
-      "checkedAt": "2026-11-07T07:10:44.478Z",
+      "checkedAt": "2026-11-15T18:35:28.110422+00:00",
       "finalUrl": "https://chb-almaty-preview.vercel.app/"
     },
     "thumbnail": "/projects/chb-barbershop-thumb.webp",
@@ -230,7 +227,7 @@ export const projects:PortfolioProject[] = [
     "verification": {
       "state": "ok",
       "httpStatus": 200,
-      "checkedAt": "2026-11-07T07:10:47.354Z",
+      "checkedAt": "2026-11-15T18:35:28.110422+00:00",
       "finalUrl": "https://kroshka-demo.vercel.app/"
     },
     "thumbnail": "/projects/kroshka-thumb.webp",
@@ -248,7 +245,7 @@ export const projects:PortfolioProject[] = [
     "verification": {
       "state": "ok",
       "httpStatus": 200,
-      "checkedAt": "2026-11-07T07:10:49.999Z",
+      "checkedAt": "2026-11-15T18:35:28.110422+00:00",
       "finalUrl": "https://fresh-cleaning-demo.vercel.app/"
     },
     "thumbnail": "/projects/fresh-cleaning-thumb.webp",
@@ -266,7 +263,7 @@ export const projects:PortfolioProject[] = [
     "verification": {
       "state": "ok",
       "httpStatus": 200,
-      "checkedAt": "2026-11-07T07:10:52.572Z",
+      "checkedAt": "2026-11-15T18:35:28.110422+00:00",
       "finalUrl": "https://clinic-demo-kz.vercel.app/"
     },
     "thumbnail": "/projects/clinic-demo-thumb.webp",
@@ -286,7 +283,7 @@ export const projects:PortfolioProject[] = [
     "verification": {
       "state": "ok",
       "httpStatus": 200,
-      "checkedAt": "2026-11-07T07:10:55.741Z",
+      "checkedAt": "2026-11-15T18:35:28.110422+00:00",
       "finalUrl": "https://ielts-embassy.vercel.app/"
     },
     "thumbnail": "/projects/ielts-embassy-thumb.webp",
@@ -306,7 +303,7 @@ export const projects:PortfolioProject[] = [
     "verification": {
       "state": "ok",
       "httpStatus": 200,
-      "checkedAt": "2026-11-07T07:10:58.988Z",
+      "checkedAt": "2026-11-15T18:35:28.110422+00:00",
       "finalUrl": "https://classlab-alt.vercel.app/"
     },
     "thumbnail": "/projects/classlab-thumb.webp",

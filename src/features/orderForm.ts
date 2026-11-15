@@ -44,6 +44,7 @@ export function mountOrderForm(host:HTMLElement,options:OrderFormOptions={}):Ord
   event.preventDefault();name.setCustomValidity(name.value.trim().length<2?'Введите название бизнеса, минимум два символа.':'');if(!form.reportValidity())return;
   draft=collect();message.value=buildOrderMessage(draft);options.onChange?.({...draft});prepared=true;actions.hidden=false;
   const url=whatsappLink(message.value);whatsapp.hidden=!(url&&contact.value==='whatsapp');if(url)whatsapp.href=url;else whatsapp.removeAttribute('href');instagram.hidden=contact.value==='whatsapp'&&!!url;
+  document.dispatchEvent(new CustomEvent('altweb:engagement',{detail:{name:'brief_prepared'}}));
   status.textContent='Текст подготовлен. Скопируйте его и откройте выбранный канал.';message.focus();
  },{signal});
  copy.addEventListener('click',async()=>{

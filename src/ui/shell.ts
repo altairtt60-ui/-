@@ -16,9 +16,9 @@ export function mountUI(root: HTMLElement, handlers: UIHandlers): UIHandle {
       </div>
       <nav class="factory-nav" aria-label="Основная навигация">
         <button class="nav-button workshops-button" data-action="workshops" aria-expanded="false" aria-controls="workshop-map">Цеха</button>
-        <button class="nav-button" data-panel="projects">Проекты</button>
-        <button class="nav-button" data-panel="services">Услуги</button>
-        <button class="nav-button contact-button" data-panel="contact" aria-label="Заказать сайт"><span class="order-label-full">Заказать сайт</span><span class="order-label-short" aria-hidden="true">Заказать</span></button>
+        <a class="nav-button" href="/portfolio" data-panel="projects">Проекты</a>
+        <a class="nav-button" href="/services" data-panel="services">Услуги</a>
+        <a class="nav-button contact-button" href="/contact" data-panel="contact" aria-label="Заказать сайт"><span class="order-label-full">Заказать сайт</span><span class="order-label-short" aria-hidden="true">Заказать</span></a>
         <button class="sound-button" data-action="sound" aria-label="Включить звук" aria-pressed="false" title="Включить звук">${soundIcon}</button>
       </nav>
     </header>
@@ -49,8 +49,8 @@ export function mountUI(root: HTMLElement, handlers: UIHandlers): UIHandle {
         <span class="location-name">Входной цех</span>
         <button class="restart-button" data-action="restart" aria-label="Вернуться к началу" title="Вернуться к началу"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 10a7 7 0 1 1 .5 6M5 4v6h6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
       </div>
-      <p class="keyboard-guide"><span><kbd>A</kbd><kbd>D</kbd> идти</span><span><kbd>Space</kbd> прыгать</span><span><kbd>E</kbd> заглянуть</span></p>
-      <button class="portfolio-link" data-panel="portfolio">Обычное портфолио<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><rect x="3" y="3" width="14" height="14" rx="2" stroke="currentColor" stroke-width="1.4"/><path d="M3 7h14M7 7v10" stroke="currentColor" stroke-width="1.4"/></svg></button>
+      <p class="keyboard-guide"><span><kbd>A</kbd><kbd>D</kbd> идти</span><span><kbd>Space</kbd> прыгать</span><span><kbd>E</kbd> заглянуть</span><span><a href="#site-content">О студии и услугах</a></span></p>
+      <a class="portfolio-link" href="/portfolio">Обычное портфолио<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><rect x="3" y="3" width="14" height="14" rx="2" stroke="currentColor" stroke-width="1.4"/><path d="M3 7h14M7 7v10" stroke="currentColor" stroke-width="1.4"/></svg></a>
     </footer>`;
 
   if (brand.markUrl) {
@@ -111,8 +111,10 @@ export function mountUI(root: HTMLElement, handlers: UIHandlers): UIHandle {
     if (mapOpen && event.key === 'Escape') { event.preventDefault(); closeMap(true); }
   });
 
-  root.querySelectorAll<HTMLButtonElement>('[data-panel]').forEach(button => {
-    button.addEventListener('click', () => {
+  root.querySelectorAll<HTMLAnchorElement>('[data-panel]').forEach(button => {
+    button.addEventListener('click', event => {
+      if(event.metaKey||event.ctrlKey||event.shiftKey||event.altKey||event.button!==0)return;
+      event.preventDefault();
       closeMap();
       handlers.navigate(button.dataset.panel as 'projects' | 'services' | 'contact' | 'portfolio');
     });

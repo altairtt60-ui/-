@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ru">
+<html lang="ru-KZ">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
@@ -21,12 +21,14 @@
     <meta name="twitter:card" content="summary_large_image" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   </head>
-  <body>
-    <main id="app" aria-label="Интерактивная фабрика сайтов Altweb Design">
+  <body class="home-page">
+    <a class="site-skip" href="#site-content">Услуги и проекты без игры</a>
+    <section id="app" aria-label="Интерактивная фабрика сайтов Altweb Design">
       <div id="game-root"></div>
       <div id="ui-root"></div>
-    </main>
-    <noscript><h1>Altweb Design — студия сайтов</h1><p>Для прогулки по фабрике нужен JavaScript. Работы можно открыть без игры: <a href="https://altweb-portfolio.vercel.app/">портфолио Altweb Design</a>.</p><p>Обсудить сайт: <a href="https://www.instagram.com/altweb.design/">Instagram @altweb.design</a>.</p></noscript>
+    </section>
+    <div class="site-document"><!-- site-content --></div>
+    <noscript><style>#app{display:none}</style><p>Прогулке по фабрике нужен JavaScript. Все услуги, проекты и контакты доступны на этой странице и в меню сайта.</p></noscript>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>

@@ -92,7 +92,7 @@ export function buildLibrary(
       .setDepth(-4);
     image(scene,'library-frame',slot.x,slot.y,-3);
     const placeholder=scene.add.text(slot.x+slot.width/2,slot.y+86,
-      project?.verified&&project.thumbnail?'Превью загружается':'Превью недоступно',{
+      project?.thumbnail?'Превью загружается':'Превью недоступно',{
         fontFamily:'Arial, sans-serif',fontSize:'13px',color:'#96aaa0',align:'center',
       }).setOrigin(.5).setDepth(-1);
     const name=project?.name??'Материалы ожидаются';
