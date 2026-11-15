@@ -1,0 +1,88 @@
+/* Hallmark · shape: factory field guide · theme: existing Altweb factory · v2.0.0
+ * Critique: readable documents extend the existing world; real previews carry the portfolio.
+ * Existing game illustrations and animation are preserved by explicit user request. */
+:root {
+  --font-body: 'Trebuchet MS', Arial, sans-serif;
+  --font-display: 'Arial Black', 'Trebuchet MS', sans-serif;
+  --ink: #081a21;
+  --canvas: #0a2029;
+  --chrome: #0b2028;
+  --surface: #102a32;
+  --cream: #e6e8d7;
+  --secondary: #bed0c8;
+  --muted: #9cb7b6;
+  --link: #7ce1d6;
+  --amber: #f4b15a;
+  --line: #345159;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+html, body { margin: 0; height: auto; min-height: 100%; overflow-x: clip; overflow-y: auto; }
+body { background: var(--ink); color: var(--cream); font-family: var(--font-body); font-size: 17px; line-height: 1.65; }
+.site-document, .document-page { --document-width: 1120px; }
+.site-document { background: var(--ink); position: relative; }
+.site-document a, .document-page a { color: var(--link); text-underline-offset: .22em; }
+.site-document a:hover, .document-page a:hover { color: var(--amber); }
+.site-document :is(a,summary):focus-visible, .document-page :is(a,summary):focus-visible, .site-skip:focus-visible { outline: 3px solid var(--amber); outline-offset: 5px; }
+.site-skip { position: absolute; z-index: 100; left: 16px; top: 12px; padding: 10px 16px; background: var(--chrome); color: var(--cream); transform: translateY(-160%); }
+.site-skip:focus { transform: none; }
+.site-header, .site-content, .site-footer { width: min(var(--document-width), calc(100% - 48px)); margin-inline: auto; }
+.site-header { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 24px; padding-block: 28px; border-bottom: 1px solid var(--line); }
+.site-brand { color: var(--cream) !important; font-size: 24px; font-weight: bold; text-decoration: none; }
+.site-brand span { color: var(--muted); font-size: 14px; display: block; font-weight: normal; }
+.site-header nav, .site-footer nav { display: flex; flex-wrap: wrap; gap: 8px 24px; }
+.site-header nav a, .site-footer nav a { display: inline-flex; align-items: center; min-height: 44px; font-size: 15px; text-decoration: none; }
+.site-header a[aria-current], .site-footer a[aria-current] { color: var(--amber); text-decoration: underline; }
+.site-content { padding-block: 32px 80px; }
+.site-content h1, .site-content h2, .site-content h3 { overflow-wrap: break-word; min-width: 0; line-height: 1.2; color: var(--cream); }
+.site-content h1 { font-size: clamp(34px, 5vw, 58px); max-width: 24ch; margin: 0 0 24px; font-weight: 700; letter-spacing: -.04em; }
+.site-content h2 { font-size: clamp(24px, 3vw, 34px); margin: 0 0 24px; }
+.site-content h3 { font-size: 22px; margin: 0 0 16px; }
+.site-content p { max-width: 72ch; margin: 0 0 20px; }
+.site-content :is(ul,ol) { padding-left: 22px; max-width: 72ch; }
+.site-content li { margin-bottom: 10px; }
+.site-lead { padding: 16px 0 28px; border-bottom: 1px solid var(--line); margin-bottom: 32px; }
+.site-lead > p { color: var(--secondary); font-size: 21px; max-width: 58ch; }
+.site-content > section { padding-block: 36px; }
+.site-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 18px 30px; margin: 28px 0; }
+.site-button { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 10px 22px; border: 1px solid var(--amber); border-radius: 4px; color: var(--cream) !important; text-decoration: none; background: var(--surface); }
+.site-button:hover { background: var(--chrome); }
+.site-note, .site-projects .project-status { color: var(--muted); font-size: 15px; }
+.site-breadcrumb { display: flex; flex-wrap: wrap; gap: 20px; font-size: 15px; margin-bottom: 16px; }
+.room-list, .service-list { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); column-gap: 48px; }
+.room-list article, .service-list article { border-top: 1px solid var(--line); padding: 28px 0; min-width: 0; }
+.room-list article a { display: inline-block; margin-right: 22px; padding-block: 8px; font-size: 15px; }
+.service-list ul { color: var(--secondary); }
+.site-projects { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 64px 48px; margin-top: 40px; }
+.site-projects article { min-width: 0; border-bottom: 1px solid var(--line); }
+.site-projects img { display: block; width: 100%; height: auto; aspect-ratio: 8 / 5; object-fit: cover; object-position: top; background: var(--surface); }
+.project-copy { padding-block: 24px 32px; }
+.project-copy h2 { font-size: 28px; margin-bottom: 16px; }
+.project-copy dl { margin: 0 0 20px; }
+.project-copy dt { color: var(--muted); font-size: 14px; margin-top: 14px; }
+.project-copy dd { margin: 0; }
+.project-copy li { font-size: 16px; }
+.site-faq details { border-bottom: 1px solid var(--line); padding: 24px 0; }
+.site-faq summary { cursor: pointer; font-size: 22px; font-weight: bold; line-height: 1.4; padding-block: 8px; }
+.site-faq p { margin-top: 20px; color: var(--secondary); }
+.site-footer { border-top: 1px solid var(--line); padding-block: 32px 48px; color: var(--secondary); }
+.site-footer p { font-size: 15px; }
+.site-sr-only { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.home-page #app { position: relative; height: 100svh; min-height: 420px; overflow: clip; line-height: normal; }
+.home-page .factory-ui { position: absolute; }
+.home-page .keyboard-guide a { color: var(--link); }
+.home-page .factory-nav a { display: inline-flex; align-items: center; text-decoration: none; color: inherit; }
+@media(max-width:700px) {
+ .site-header, .site-content, .site-footer { width: calc(100% - 32px); }
+ .site-header { gap: 16px; }
+ .site-header nav { gap: 2px 20px; }
+ .site-content { padding-block: 24px 48px; }
+ .site-lead { padding-top: 20px; }
+ .site-lead > p { font-size: 19px; }
+ .room-list, .service-list, .site-projects { grid-template-columns: minmax(0,1fr); }
+ .site-projects { gap: 40px; }
+}
+@media(prefers-reduced-motion:reduce) { html { scroll-behavior: auto; } }
+
+.home-page { font-size: 16px; line-height: normal; }
+.site-document { font-size: 17px; line-height: 1.65; }

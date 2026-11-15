@@ -22,6 +22,7 @@ let audioContext: AudioContext | undefined;
 let gain: GainNode | undefined;
 let lastState: GameState | undefined;
 let orderDraft:OrderDraft={};
+let factoryVisible=true;
 let bootStarted=false;
 let bootPromise:Promise<void>|undefined;
 
@@ -35,7 +36,7 @@ function resumeGame() {
   game?.focusStation(false);
   game?.focusInteraction(null);
   game?.focusProject(null);
-  game?.setPaused(false);
+  game?.setPaused(!factoryVisible);
   if(!bootStarted)void ensureGame();
 }
 
@@ -242,7 +243,7 @@ async function boot() {
       },
       onState(state) { lastState = state; ui.setStatus(state); },
     });
-    game.setPaused(panelOpen);
+    game.setPaused(panelOpen || !factoryVisible);
   } catch (error) {
     console.error('Не удалось запустить игровую сцену', error);
     const message = document.createElement('p');
@@ -254,5 +255,17 @@ async function boot() {
 const clearProgressButton=document.createElement('button');clearProgressButton.type='button';clearProgressButton.className='console-button';clearProgressButton.textContent='Сбросить прогресс заданий';clearProgressButton.dataset.action='clear-task-progress';
 clearProgressButton.addEventListener('click',()=>{if(window.confirm('Сбросить прогресс всех трёх заданий?')){clearTasks();window.location.reload();}});
 uiRoot.querySelector('.workshop-map')?.append(clearProgressButton);
-if(shouldShowIntro())showIntroduction();
+const factoryObserver=new IntersectionObserver(([entry])=>{
+  if(!entry)return;
+  factoryVisible=entry.isIntersecting;
+  if(!factoryVisible)releaseInput();
+  game?.setPaused(panelOpen || !factoryVisible);
+}, {threshold:0});
+factoryObserver.observe(document.querySelector('#app')!);
+
+const requestedRoom=new URLSearchParams(window.location.search).get('room');
+if(window.location.hash==='#order')showOrder();
+else if(requestedRoom && ['entry','design','backend','qa','library','dispatch'].includes(requestedRoom)){
+  void ensureGame().then(()=>game?.goToZone(requestedRoom as import('./content/world').ZoneId));
+}else if(shouldShowIntro())showIntroduction();
 else void ensureGame();

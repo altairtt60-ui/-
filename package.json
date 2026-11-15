@@ -6,13 +6,12 @@
   "scripts": {
     "dev": "vite --host 0.0.0.0",
     "typecheck": "tsc --noEmit",
-    "build": "tsc --noEmit && vite build",
-    "preview": "vite preview --host 0.0.0.0",
+    "build": "tsc --noEmit && vite build && node scripts/generate-site.mjs",
+    "preview": "node scripts/serve.mjs",
     "test:browser": "node tests/browser.mjs",
     "test:portfolio": "node tests/portfolio.mjs",
-    "build:offline": "node scripts/build-offline.mjs",
-    "test:offline": "node tests/offline.mjs",
-    "test:rebuild": "node tests/rebuild.mjs"
+    "test:seo": "node tests/seo.mjs",
+    "test": "npm run test:seo && npm run test:browser && npm run test:portfolio"
   },
   "dependencies": {
     "phaser": "3.90.0"
