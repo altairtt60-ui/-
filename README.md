@@ -14,10 +14,12 @@ Node.js 24; `npm ci`, `npm run dev`. Проверка типов: `npm run typec
 
 ## SEO/GEO и проверки
 
-`npm run build` также генерирует `/services`, `/portfolio`, `/about`, `/contact`, `/faq`, читаемый раздел главной, sitemap и 404. Они доступны без JavaScript. `npm run preview` запускает полный статический результат на порту 4174. `npm run dev` предназначен для игровой части; полные SEO-страницы проверяйте после сборки.
+`npm run build` также генерирует `/services`, `/portfolio`, `/about`, `/contact`, `/faq`, четыре страницы отдельных задач внутри `/services/`, қазақша `/kk`, читаемый раздел главной, sitemap и 404. Они доступны без JavaScript. `npm run preview` запускает полный статический результат на порту 4174. `npm run dev` предназначен для игровой части; полные SEO-страницы проверяйте после сборки.
 
 `npm test` проверяет SEO без JavaScript, все комнаты и игры на desktop/mobile, портфолио и заявку. Нужен установленный Playwright Chromium (`npx playwright install chromium`) либо `PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH`.
 
 Содержание и метаданные: `src/content/site.ts`; услуги: `src/content/commerce.ts`; проекты и доступность ссылок: `src/content/projects.ts`. Существующая политика обучающих роботов сохранена. Сторонняя аналитика и коды верификации без данных владельца не включены.
 
 Подробности, ограничения измерений и действия владельца: [docs/SEO-GEO.md](docs/SEO-GEO.md).
+
+Покрытие коммерческих, сравнительных и казахоязычных запросов: [docs/QUERY-COVERAGE.md](docs/QUERY-COVERAGE.md). Контент новых направлений: `src/content/discovery.ts`.
